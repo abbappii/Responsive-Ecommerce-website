@@ -1,6 +1,6 @@
 # Django-Ecommerce
 
-Ecommerce website built with Django 2.2.3, Python 3.7.3, and AWS
+Ecommerce website built with Django 2.2.4/latest version, Python 3.8, and AWS
 
 ![image](https://user-images.githubusercontent.com/29988949/65267147-499fc580-dac9-11e9-90e8-eccbc93c7c3a.png)
 
@@ -30,15 +30,15 @@ Ecommerce website built with Django 2.2.3, Python 3.7.3, and AWS
 
 `pip install django`
 
-`virtualenv env`
+`virtualenv venv`
 
 # For Mac/ Linux
 
-`source env/bin/activate`
+`source venv/bin/activate`
 
 # For Window
 
-`env\scripts\activate`
+`venv\scripts\activate`
 
 `pip install -r requirements.txt`
 
@@ -52,14 +52,7 @@ Ecommerce website built with Django 2.2.3, Python 3.7.3, and AWS
 
 ```python
 python manage.py createsuperuser
-Username : admin
-Password : 12345678
+Username : bappi
+Password : bappi
 ```
-# Demo
-
-http://djangoecommerce.pythonanywhere.com
-
-# HTML Template
-
-https://colorlib.com/etc/fashe/index.html
 
