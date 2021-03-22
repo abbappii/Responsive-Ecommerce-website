@@ -1,1 +1,0 @@
-web: gunicorn My_Ecommerce_Project.wsgi
