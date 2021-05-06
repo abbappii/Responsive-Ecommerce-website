@@ -41,8 +41,8 @@
 
 						{% if request.user.is_authenticated %}
 						<li>
-							<a href="{% url 'core:order-summary' %}">Cart<span class="badge badge-dark">{{
-									request.user|cart_item_count }}</span></a>
+							<a href="{% url 'core:order-summary' %}">
+								Cart<span class="badge badge-dark">{{request.user|cart_item_count}}</span></a>
 						</li>
 						<li>
 							<a href="{% url 'account_logout' %}">Logout</a>
@@ -119,8 +119,8 @@
 
 				{% if request.user.is_authenticated %}
 				<li class="item-menu-mobile">
-					<a href="{% url 'core:order-summary' %}">Cart<span class="badge badge-dark">{{
-							request.user|cart_item_count }}</span></a>
+					<a href="{% url 'core:order-summary' %}">Cart<span class="badge badge-dark">{{ request.user |
+							cart_item_count }}</span></a>
 				</li>
 				<li class="item-menu-mobile">
 					<a href="{% url 'account_logout' %}">Logout</a>
