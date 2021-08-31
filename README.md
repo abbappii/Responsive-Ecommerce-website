@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Django-Ecommerce
 
 
@@ -32,5 +31,3 @@ python manage.py createsuperuser
 Username : bappi
 Password : bappi
 ```
-
->>>>>>> 202067e4ee81faffc1bad9fb76b593b8ae450664
